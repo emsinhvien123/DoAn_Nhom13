@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+#wrapper {
+    display: flex;
+}
+
+#sidebar-wrapper {
+    min-width: 250px;
+    max-width: 250px;
+    height: 100vh;
+    background-color: #343a40;
+}
+
+#page-content-wrapper {
+    flex: 2;
+    padding: 20px;
+}
+
+.toggled #sidebar-wrapper {
+    margin-left: -250px;
+}
+
+.card-body h3 {
+    margin-top: 10px;
+}
